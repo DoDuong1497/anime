@@ -1,0 +1,116 @@
+body {
+  background-color: var(--blue-dark-cl-1);
+  font-family: var(--primary-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 700;
+  font-family: 'Mulish', sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 15px;
+  font-family: 'Mulish', sans-serif;
+  color: var(--gray-cl-2);
+  font-weight: 400;
+  line-height: 25px;
+  margin: 0 0 15px 0;
+}
+
+a {
+  color: var(--second-cl);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: var(--blue-dark-cl-2);
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu > li {
+  position: relative;
+}
+
+.header-menu > li a {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  color: var(--gray-cl-1);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.header-menu > li.active a {
+  color: var(--second-cl);
+  background-color: var(--primary-cl);
+}
+
+.header-menu .menu-child {
+  min-width: 200px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  background-color: var(--second-cl);
+}
+
+.header-menu > li:hover .menu-child {
+  display: block;
+}
+
+.header-menu .menu-child a {
+  padding: 10px 20px;
+  color: var(--black-cl);
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+
+:root {
+  --primary-font: 'Mulish', sans-serif;
+  --second-font: 'Oswald', sans-serif;
+
+  --primary-cl: #e53637;
+  --second-cl: #ffffff;
+  --black-cl: #000000;
+  --gray-cl-1: #b7b7b7;
+  --gray-cl-2: #3d3d3d;
+  --blue-dark-cl-1: #0b0c2a;
+  --blue-dark-cl-2: #070720;
+}

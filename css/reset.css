@@ -33,7 +33,7 @@ button {
 }
 
 body {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   font-weight: 400;
   font-size: 15px;
   line-height: 1.5;
